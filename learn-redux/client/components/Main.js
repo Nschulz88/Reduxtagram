@@ -1,7 +1,9 @@
-import React from 'react';
+import React from 'react'
 import { Link } from 'react-router';
+import createReactClass from 'create-react-class';
 
-const Main = React.createClass({
+
+const Main = createReactClass({
   render() {
     return (
       <div>
